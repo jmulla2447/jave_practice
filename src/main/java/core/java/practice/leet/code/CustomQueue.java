@@ -8,6 +8,8 @@ class Node {
     private int val;
     private Node next;
 
+    private Node pre;
+
     public Node(int val) {
         this.val = val;
     }
@@ -26,6 +28,14 @@ class Node {
 
     public void setNext(Node next) {
         this.next = next;
+    }
+
+    public Node getPre() {
+        return pre;
+    }
+
+    public void setPre(Node pre) {
+        this.pre = pre;
     }
 }
 
