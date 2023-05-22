@@ -9,7 +9,7 @@ public class PalindromeCheck {
         int reverseNo = 0;
 
         while (no > reverseNo) { //121>0    12> 1
-            reverseNo = reverseNo * 1 + no % 10; //0+1   1+20=21
+            reverseNo = reverseNo * 10 + no % 10; //0+1   10+2=12
             no = no / 10; //12    1
         }
         return reverseNo == no || no == reverseNo / 10;

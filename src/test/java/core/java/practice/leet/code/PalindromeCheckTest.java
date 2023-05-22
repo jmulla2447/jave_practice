@@ -26,7 +26,7 @@ class PalindromeCheckTest {
     @Test
     void isPalindrome() {
         int no = 1221;
-        assertEquals(false, check.isPalindrome(no));
+        assertEquals(true, check.isPalindrome(no));
     }
 
 
