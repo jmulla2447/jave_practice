@@ -28,4 +28,8 @@ public class EmployeeBaseStream {
         Optional<Employee> highestPaidEmployee = employees.stream()
                 .max(Comparator.comparingInt(Employee::getSalary));
     }
+
+    public void departmentWiseAvgSalary(){
+        employees.stream().collect(Collectors.toMap(Employee::getDepartment, Employee::getSalary));
+    }
 }
