@@ -5,8 +5,6 @@ public class BowlingGame {
 
     private int currentFrame;
 
-    private int totalScore;
-
     public BowlingGame() {
         frames = new Frame[10];
         currentFrame = 0;

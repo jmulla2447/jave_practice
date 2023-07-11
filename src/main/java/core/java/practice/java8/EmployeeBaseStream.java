@@ -1,9 +1,6 @@
 package core.java.practice.java8;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class EmployeeBaseStream {
@@ -16,8 +13,8 @@ public class EmployeeBaseStream {
             new Employee("Frank", "Marketing", 110000)
     );
 
-    public void getEmployeesHighestPaidByDepartmentWise(){
-        employees.stream().collect(Collectors.groupingBy(Employee::getDepartment,
+    public Map<String, Optional<Employee>> getEmployeesHighestPaidByDepartmentWise(){
+        return employees.stream().collect(Collectors.groupingBy(Employee::getDepartment,
                 Collectors.maxBy(Comparator.comparingInt(Employee::getSalary))));
     }
 

@@ -1,10 +1,6 @@
 package core.java.practice.leet.code;
 
-import java.util.Arrays;
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.ListIterator;
-import java.util.stream.Collectors;
 
 public class LargestRectangleInHistogram {
     public int largestRectangleArea(int[] heights) {

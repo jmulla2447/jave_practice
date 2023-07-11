@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class IsoMorphicString {
 
     public static void main(String[] args) {
-        System.out.println(isIsomorphic("abb", "exg"));
+        System.out.println(isIsomorphic("abc", "exx"));
     }
     public static boolean isIsomorphic(String s, String t) {
         if(s.length() != t.length()) return false;

@@ -76,7 +76,7 @@ public class BinarySearchTree {
         for (int i : nums) {
             root = tree.addNode(root, new Node(i, null, null));
         }
-        System.out.println(tree.searchElement(root, 39));
+        System.out.println(tree.searchElement(root, 12));
 
     }
 

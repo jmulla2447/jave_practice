@@ -43,7 +43,7 @@ public class Frame {
     }
 
     public boolean isFrameComplete(int currentFrame) {
-        isScoreCal = (currentFrame == 9 && rolls.get(0) ==10) ? rolls.size() == 3 : rolls.size() == 2;
+        isScoreCal = (currentFrame == 9 && rolls.get(0) == 10) ? rolls.size() == 3 : rolls.size() == 2;
         if (isScoreCal) {
             totalFrameScore += getFrameScore();
             System.out.println(totalFrameScore);
