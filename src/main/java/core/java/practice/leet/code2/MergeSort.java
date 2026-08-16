@@ -6,8 +6,8 @@ public class MergeSort {
 
     public int[] divide(int [] num ){
         int len = num.length;
+        if(len <= 1) return num;// Base condition
 
-        if(len <= 1) return num;
         int mid = len/2;
         int[] leftNums =  new int[mid];
         int[] righttNums =  new int[len-mid];
