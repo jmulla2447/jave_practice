@@ -21,15 +21,15 @@ public class Island {
                 }
 
                 islandCount++;
-                exploreIsland(grid, x, y, false);
+                exploreIsland(grid, x, y, true);
             }
         }
 
         return islandCount;
     }
 
-    private void exploreIsland(Grid grid, int x, int y, boolean alreadyChecked) {
-        if (alreadyChecked) {
+    private void exploreIsland(Grid grid, int x, int y, boolean conditionChecked) {
+        if (!conditionChecked) {
             // Boundary check
             if (!grid.isValid(x, y)) {
                 return;
@@ -55,7 +55,7 @@ public class Island {
             int newX = x + direction.getXDelta();
             int newY = y + direction.getYDelta();
 
-            exploreIsland(grid, newX, newY, true);
+            exploreIsland(grid, newX, newY, false);
         }
     }
 }
