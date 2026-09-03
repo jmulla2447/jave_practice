@@ -30,5 +30,25 @@ public class SearchInRotatedArray {
         return result;
     }
 
+    public int findMin(int[] nums){
+        int len = nums.length;
+        int i = 0 , j  = len-1, mid, min =-1;
+        if(nums[i] < nums[j]) return nums[i];
+        if(len == 2) return nums[j];
+        while(i < j){
+            if(nums[i] < nums[j]) {
+               return nums[i];
+            }
+
+            mid = (i +j+1) /2;
+            if(nums[i]< nums[mid]){
+                i  = mid+1;
+            }else if(nums[mid]<nums[j]) {
+                j = mid;
+            }
+        }
+        return nums[i];
+    }
+
 
 }

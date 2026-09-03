@@ -26,4 +26,18 @@ class SearchInRotatedArrayTest {
         int actualIndex = rotatedArray.search(new int[]{4}, 0);
         assertEquals(-1,actualIndex);
     }
+
+    @Test
+    void findMin() {
+        SearchInRotatedArray rotatedArray  =  new SearchInRotatedArray();
+        int actualMin = rotatedArray.findMin(new int[]{4,5,6,7,0,1,2});
+        assertEquals(0, actualMin);
+    }
+
+    @Test
+    void findMin1() {
+        SearchInRotatedArray rotatedArray  =  new SearchInRotatedArray();
+        int actualMin = rotatedArray.findMin(new int[]{5,6,7,0,1,2, 4});
+        assertEquals(0, actualMin);
+    }
 }
