@@ -1,7 +1,5 @@
 package core.java.practice.leet.code2;
 
-import java.sql.BatchUpdateException;
-
 /*
 * Problem 2: The "Ramp-Up Factory" Problem (Batch Processing)
 The Scenario
@@ -16,25 +14,26 @@ Minutes=(Worker Count×Item Block Size)+(Worker Count×2)
 * */
 public class RampupFactorProblem {
     private static final int BATCH_SPEND = 2;
-    public int totalWorkingMinute(String beltProcessing){// WWIIIWIII
+
+    public int totalWorkingMinute(String beltProcessing) {// WWIIIWIII
         int workerCount = 0;
         int totalMinute = 0;
-        int itemCount =  0;
+        int itemCount = 0;
         int len = beltProcessing.length();
-        for(int i = 0; i < len ; i++) {
+        for (int i = 0; i < len; i++) {
             if (beltProcessing.charAt(i) == 'W') {
                 workerCount++;
-            } else{
+            } else {
                 while (i < len && beltProcessing.charAt(i) == 'I') {
                     itemCount++;
                     i++;
                 }
-            int itemCountMinute = (workerCount * itemCount);
-            int batchCountMinute = (workerCount * BATCH_SPEND);
-            totalMinute += (itemCountMinute + batchCountMinute);
-            itemCount = 0;
-            i--;
-        }
+                int itemCountMinute = (workerCount * itemCount);
+                int batchCountMinute = (workerCount * BATCH_SPEND);
+                totalMinute += (itemCountMinute + batchCountMinute);
+                itemCount = 0;
+                i--;
+            }
         }
 
         return totalMinute;

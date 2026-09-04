@@ -50,12 +50,12 @@ public class SearchInRotatedArray {
         return nums[i];
     }
 
-    public int[] rotate(int[] nums, int r ){
-        int len  = nums.length;
+    public int[] rotate(int[] nums, int r) {
+        int len = nums.length;
         int[] rotatedArray = new int[len];
-        for(int i =0 ; i <= len-1 ; i++){
+        for (int i = 0; i <= len - 1; i++) {
             int newIndex = i - r;
-            if(newIndex < 0) newIndex = newIndex + len;
+            if (newIndex < 0) newIndex = newIndex + len;
             rotatedArray[newIndex] = nums[i];
         }
         return rotatedArray;

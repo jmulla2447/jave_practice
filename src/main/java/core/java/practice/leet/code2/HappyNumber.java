@@ -3,7 +3,7 @@ package core.java.practice.leet.code2;
 import java.util.HashSet;
 
 public class HappyNumber {
-    public boolean isHappyNumber(long number){
+    public boolean isHappyNumber(long number) {
         boolean isHappy = true;
         HashSet<Long> uniqueNextNumber = new HashSet<>();
         uniqueNextNumber.add(number);
@@ -19,13 +19,13 @@ public class HappyNumber {
 
     }
 
-    private long generateNextNumber(long number){
+    private long generateNextNumber(long number) {
         long sum = 0;
-        while(number/10 != 0){
-            sum += (long)Math.pow(number%10,2);
-            number  = number/10;
+        while (number / 10 != 0) {
+            sum += (long) Math.pow(number % 10, 2);
+            number = number / 10;
         }
-        sum += (long)Math.pow(number%10,2);
+        sum += (long) Math.pow(number % 10, 2);
         return sum;
     }
 }

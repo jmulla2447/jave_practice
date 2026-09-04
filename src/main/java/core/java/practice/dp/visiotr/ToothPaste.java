@@ -1,10 +1,10 @@
 package core.java.practice.dp.visiotr;
 
-public class ToothPaste implements Item {
+public class ToothPaste extends Item {
 
     private int price;
 
-    @Override
+
     public int accept(ShoppingCartVisitor visitor) {
         return visitor.calculatePrice(this);
     }

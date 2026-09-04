@@ -1,7 +1,8 @@
 package core.java.practice.leet.code2;
 
 
-import java.util.*;
+import java.util.Collections;
+import java.util.PriorityQueue;
 
 /*
 *
@@ -24,23 +25,26 @@ Output: 4
 
 * */
 public class KthLargestElement {
-    private PriorityQueue<Integer>  kthQue = new PriorityQueue<>(Collections.reverseOrder());
+    private PriorityQueue<Integer> kthQue = new PriorityQueue<>(Collections.reverseOrder());
 
-    public int findKthLargest(int[] nums, int kth){
-        int len  = nums.length-1;
-        for(int i = 0, j = len ; i <j ;){
+    public int findKthLargest(int[] nums, int kth) {
+        int len = nums.length - 1;
+        for (int i = 0, j = len; i < j; ) {
 
-            if(nums[i]< nums[j]){
+            if (nums[i] < nums[j]) {
                 kthQue.add(nums[i]);
                 i++;
-            }else {
+            } else {
                 kthQue.add(nums[j]);
                 j--;
             }
 
         }
         int i = 0;
-        while(i<kth) {kthQue.poll();i++;}
-        return  kthQue.peek();
+        while (i < kth) {
+            kthQue.poll();
+            i++;
+        }
+        return kthQue.peek();
     }
 }

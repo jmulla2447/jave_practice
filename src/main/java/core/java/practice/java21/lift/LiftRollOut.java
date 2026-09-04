@@ -17,29 +17,22 @@ public class LiftRollOut {
         //System.out.println("Type 'EXIT' to quit.\n");
 
         while (true) {
-            String input = scanner.nextLine().trim();
-            if (input.equalsIgnoreCase("EXIT")) {
-                controller.shutdown();
-                break;
-            }
 
+            if(userAtFloor() == 9) break;
             try {
-
-                int needFloor =  wentTo();
-                Direction direction  = needFloor < 0 ? Direction.DOWN : Direction.UP;
-
-                int floor = Math.abs(needFloor);
-                if (floor < 1 || floor > 10) {
-                    System.out.println("Error: Building height is 1 to 10 floors.");
-                    continue;
-                }
-
-                controller.pressButton(userAtFloor(), floor, direction);
+                callLift(controller);
+                callLift(controller);
             } catch (Exception e) {
                 System.out.println("Invalid input format. Use: <Floor 1-10> <UP|DOWN>");
             }
         }
-        scanner.close();
+    }
+
+    public static void callLift(LiftController controller){
+        int needFloor = wentTo();
+        Direction direction = needFloor < 0 ? Direction.DOWN : Direction.UP;
+        int floor = Math.abs(needFloor);
+        controller.pressButton(userAtFloor(), floor, direction);
     }
 
     public static int wentTo(){

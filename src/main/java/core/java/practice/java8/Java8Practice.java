@@ -1,13 +1,15 @@
 package core.java.practice.java8;
 
+import java.awt.desktop.SystemEventListener;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Java8Practice {
 
     public static List<Integer> findOutOddNumberList(int[] a) {
-        return Arrays.stream(a).filter(odd -> odd % 2 == 0).mapToObj(Integer::valueOf).collect(Collectors.toList());
+        return Arrays.stream(a).filter(odd -> odd % 2 == 0).boxed().collect(Collectors.toList());
     }
 
     public static List<Integer> findDuplicateElementList(int[] a) {
@@ -39,6 +41,21 @@ public class Java8Practice {
                 .get();
     }
 
+    public static int[] findTop(int[] elements,  int i){
+        return Arrays.stream(elements).sorted().distinct().limit(i).toArray();
+    }
+
+    public static List<String> prefixString(String[] str, String prefix){
+        return Arrays.stream(str).filter(s -> s.startsWith(prefix)).collect(Collectors.toList());
+    }
+
+    public static int findMax(int[] a){
+        return Arrays.stream(a).max().getAsInt();
+    }
+
+    public static int longestName(String[] names){
+        return  Arrays.stream(names).mapToInt(s -> s.length()).max().getAsInt();
+    }
 
     public static int[] findKthElement(int[] a, int k) {
 //        List<Map.Entry<Integer, Long>> list = Arrays.stream(a)
@@ -50,7 +67,18 @@ public class Java8Practice {
         return null;
     }
 
+    public static void totalWordCount(){
+        List<String> sentences = Arrays.asList(
+                "Java Stream API provides a fluent interface for processing sequences of elements.",
+                "It supports functional-style operations on streams of elements, such as map-reduce transformations.",
+                "In this exercise, you need to count the total number of words in all sentences."
+        );
+        long count = sentences.stream().peek(line-> Stream.of(line.split(" "))).count();
+        System.out.println(count);
+    }
+
     public static void main(String[] args) {
+        totalWordCount();
         NavigableSet<Double> ns = new TreeSet<>();
         ns.add(3d);
         ns.add(4d);
