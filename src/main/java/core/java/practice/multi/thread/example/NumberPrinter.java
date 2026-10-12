@@ -1,9 +1,9 @@
 package core.java.practice.multi.thread.example;
 
 public class NumberPrinter implements Runnable {
-    private Printer printer;
-    private int maxNo;
-    private int totalThreads;
+    private final Printer printer;
+    private final int maxNo;
+    private final int totalThreads;
 
     NumberPrinter(Printer printer, int maxNo, int totalThreads) {
         this.printer = printer;
@@ -18,7 +18,7 @@ public class NumberPrinter implements Runnable {
                 synchronized (printer) {
                     int no = printer.getNo();
                     if (no % totalThreads == Thread.currentThread().getId() % totalThreads) {
-                        printer.print(no);
+                        printer.print();
                         no++;
                         printer.setNo(no);
                         printer.notifyAll();

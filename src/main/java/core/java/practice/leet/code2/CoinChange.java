@@ -4,6 +4,14 @@ import java.util.Arrays;
 
 public class CoinChange {
 
+    private static boolean canMakeAmount(int[] minCoins, int i, int coin) {
+        return minCoins[i - coin] != Integer.MAX_VALUE;
+    }
+
+    private static boolean isAmountReachable(int i, int coin) {
+        return i - coin < 0;
+    }
+
     public int coinChange(int[] coins, int amount) {
         int[] minCoins = new int[amount + 1];
         Arrays.fill(minCoins, Integer.MAX_VALUE);
@@ -20,13 +28,5 @@ public class CoinChange {
         }
 
         return minCoins[amount] == Integer.MAX_VALUE ? -1 : minCoins[amount];
-    }
-
-    private static boolean canMakeAmount(int[] minCoins, int i, int coin) {
-        return minCoins[i - coin] != Integer.MAX_VALUE;
-    }
-
-    private static boolean isAmountReachable(int i, int coin) {
-        return i - coin < 0;
     }
 }

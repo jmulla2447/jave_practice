@@ -47,17 +47,17 @@ public class MiedianOf2SortedArray {
                 aCut = (a.length / 2) + newCut;
                 bCut = left - aCut;
             }
-            newCut = requiredRecut(a[aCut-1], b[bCut ], b[bCut-1], a[aCut] );
+            newCut = requiredRecut(a[aCut - 1], b[bCut], b[bCut - 1], a[aCut]);
 
         } while (newCut != 0);
 
         if (isEven) {
-            return (float) (a[aCut-1] + b[bCut-1]) / 2;
+            return (float) (a[aCut - 1] + b[bCut - 1]) / 2;
         } else {
-            if (a[aCut-1] < b[bCut]) {
+            if (a[aCut - 1] < b[bCut]) {
                 return b[bCut];
             } else {
-                return a[aCut-1];
+                return a[aCut - 1];
             }
         }
 

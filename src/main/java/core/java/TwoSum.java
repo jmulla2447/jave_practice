@@ -25,8 +25,29 @@ public class TwoSum {
         TwoSum twoSum = new TwoSum();
         int[] nums = {2, 7, 11, 15};
         int target = 9;
-        ArrayList<Integer> result = twoSum.twoSum(nums, target);
+        ArrayList<Integer> result = twoSum.sum2(nums, target);
         System.out.println(result); // Output: [0, 1]
+    }
+
+    public ArrayList<Integer> sum2(int[] nums, int target){
+        ArrayList<Integer> result = new ArrayList<>();
+        HashMap<Integer, Integer>  comp = new HashMap<>();
+        
+        for( int i= 0; i < nums.length -1 ; i++){
+            int temp = target - nums[i];   // 7 2
+            if(comp.containsKey(temp)){
+                result.add(comp.get(temp));
+                result.add(i);
+                return result;
+            }else {
+                comp.put(nums[i], i);// 2,1.  
+            }
+                
+        }
+
+
+
+        return result;
     }
 
 }

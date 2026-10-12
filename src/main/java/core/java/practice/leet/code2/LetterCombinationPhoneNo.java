@@ -31,12 +31,12 @@ The answer can be returned in any order.
 The solution uses an iterative approach where it processes each digit one by one. Starting with an initial list containing an empty string, it iterates through each digit in the input. For each digit, it looks up the corresponding letters and creates new combinations by appending each letter to all existing combinations. The process continues until all digits have been processed, building up the complete set of letter combinations.
 * */
 public class LetterCombinationPhoneNo {
+    private final static Map<Integer, String> phoneNoMap = Map.of(2, "ABC", 3, "DEF", 4, "GHI", 5, "JKL", 6, "MNO", 7, "PQR", 8, "STU", 9, "WXYZ");
     private Deque<String> stack = new ArrayDeque<>();
-    private final static Map<Integer, String> phoneNoMap = Map.of(2, "ABC", 3, "DEF", 4, "GHI", 5, "JKL", 6, "MNO", 7, "PQR", 8, "STU", 9 , "WXYZ");
 
-    public List<String> letterCombination(String digit){
+    public List<String> letterCombination(String digit) {
 
-        if(digit.isEmpty()) return List.of();
+        if (digit.isEmpty()) return List.of();
         stack.push("");
         for (int i = 0; i < digit.length(); i++) {
             createCombination(phoneNoMap.get(digit.charAt(i) - '0'), stack);
@@ -44,8 +44,8 @@ public class LetterCombinationPhoneNo {
         return stack.stream().toList();
     }
 
-    private void createCombination(String s, Deque<String> stack){
-        if(s.isBlank()) {
+    private void createCombination(String s, Deque<String> stack) {
+        if (s.isBlank()) {
             stack.pop();
             return;
         }
@@ -53,15 +53,15 @@ public class LetterCombinationPhoneNo {
         var element = stack.peek();
         var splitedString = SplitString.split(s);
         createCombination(splitedString.remaingChar(), stack);
-        stack.push(element+splitedString.lastChar());
+        stack.push(element + splitedString.lastChar());
     }
 
-    record SplitString(String lastChar, String remaingChar){
-        public static SplitString split(String digit){
-            if(digit.isBlank()){
-                new SplitString("","");
+    record SplitString(String lastChar, String remaingChar) {
+        public static SplitString split(String digit) {
+            if (digit.isBlank()) {
+                new SplitString("", "");
             }
-            return new SplitString(digit.substring(digit.length()-1), digit.substring(0, digit.length()-1));
+            return new SplitString(digit.substring(digit.length() - 1), digit.substring(0, digit.length() - 1));
         }
     }
 }

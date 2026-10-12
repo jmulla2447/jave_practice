@@ -17,7 +17,7 @@ public class EvenPrinter implements Runnable {
                 synchronized (printer) {
                     if (printer.getNo() % 2 == 0) {//2= totalNoOfThread and 0 = threadid
                         int no = printer.getNo();
-                        printer.print(no);
+                        printer.print();
                         printer.setNo(++no);
                         printer.notify();
                     } else {

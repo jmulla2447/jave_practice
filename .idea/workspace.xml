@@ -5,15 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37a73ebf-2df9-4bf0-85cb-672dc9152598" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code/RunningSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/performance/ComplexityCalulationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/idnow/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/RateLimiterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/Retry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/NumberPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/ThreadSafeCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/pc/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/pc/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/LongestSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/LongestSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/dp/visiotr/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/dp/visiotr/Glass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/dp/visiotr/ShopingCartCalulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/dp/visiotr/ShoppingCartVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/dp/visiotr/ToothPaste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/CombinationOfSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/CombinationOfSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/FirstNonRepeativeChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/FirstNonRepeativeChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/Heapyfy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/Heapyfy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/LetterCombinationPhoneNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/LetterCombinationPhoneNo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/LongestPlindormString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/LongestPlindormString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/MiedianOf2SortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/MiedianOf2SortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/Permutation1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/Permutation1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/RainWaterTrapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/RainWaterTrapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/leet/code2/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/example/EvenPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/example/EvenPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/example/NumberPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/example/NumberPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/example/OddPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/example/OddPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/example/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/java/practice/multi/thread/example/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kotaline/practice/PlayGame.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kotaline/practice/PlayGame.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,27 +54,137 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jmulla2447&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jmulla2447/jave_practice.git&quot;,
+    &quot;accountId&quot;: &quot;472a548d-7c31-479e-bf48-cd4199f2db04&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.161965381501966E-159" />
+      <entry key="MS500" value="1.633197242576384E-32" />
+      <entry key="S2" value="1.1360294533549418E-8" />
+      <entry key="S5" value="7.90265213491914E-4" />
+      <entry key="S10" value="0.04882718271525297" />
+      <entry key="S30" value="1.3797286277321954" />
+      <entry key="S60" value="3.9249118101806686" />
+      <entry key="M2" value="7.819300965938364" />
+      <entry key="M5" value="17.962831625005645" />
+      <entry key="M10" value="39.33220197008369" />
+      <entry key="M15" value="61.68991739793677" />
+      <entry key="M30" value="115.8891498934209" />
+      <entry key="H1" value="174.2975154411881" />
+      <entry key="H2" value="219.62297205113978" />
+      <entry key="H4" value="248.27514032690425" />
+      <entry key="D1" value="275.98569331150304" />
+      <entry key="W1" value="281.13058508893226" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0006061657673468" />
+      <entry key="S2" value="1.1569097019642527" />
+      <entry key="S5" value="1.484702867269718" />
+      <entry key="S10" value="1.9477833612187034" />
+      <entry key="S30" value="5.8744484356872535" />
+      <entry key="S60" value="11.524222897362764" />
+      <entry key="M2" value="19.646547575452523" />
+      <entry key="M5" value="35.17038699380859" />
+      <entry key="M10" value="54.54251121239037" />
+      <entry key="M15" value="71.10090249739794" />
+      <entry key="M30" value="106.31064469906035" />
+      <entry key="H1" value="140.56336698985825" />
+      <entry key="H2" value="165.7075996281677" />
+      <entry key="H4" value="181.15831557945884" />
+      <entry key="D1" value="195.84249080679896" />
+      <entry key="W1" value="198.54416862238838" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.8247671492125717E-4" />
+      <entry key="MS500" value="0.17883835537719828" />
+      <entry key="S2" value="0.7476834092083868" />
+      <entry key="S5" value="1.2423139058439436" />
+      <entry key="S10" value="1.8167591608676141" />
+      <entry key="S30" value="7.04544338765395" />
+      <entry key="S60" value="15.245838246705146" />
+      <entry key="M2" value="27.293993214217235" />
+      <entry key="M5" value="53.00648652808574" />
+      <entry key="M10" value="93.77065563064667" />
+      <entry key="M15" value="132.69769574336553" />
+      <entry key="M30" value="222.12788817326432" />
+      <entry key="H1" value="314.81256683003886" />
+      <entry key="H2" value="385.3018658649305" />
+      <entry key="H4" value="429.41770368448135" />
+      <entry key="D1" value="471.8253368917092" />
+      <entry key="W1" value="479.67434113053883" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="2Oxcglx3EajBs99URMq2Wsjwc8r" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "/Users/javedmulla/IdeaProjects/practice/src/main/java/core/java/practice/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.NumberPrinter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Producer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/javedmulla/jave_practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/javedmulla/IdeaProjects/practice/src/main/java/core/java/practice/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Producer">
+    <configuration name="NumberPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.java.practice.multi.thread.NumberPrinter" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.java.practice.multi.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.java.practice.multi.thread.pc.Producer" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.java.practice.multi.thread.pc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunningSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.java.practice.leet.code.RunningSum" />
       <module name="practice" />
@@ -66,9 +200,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.NumberPrinter" />
         <item itemvalue="Application.RunningSum" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,5 +239,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

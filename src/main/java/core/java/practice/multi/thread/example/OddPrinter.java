@@ -20,7 +20,7 @@ public class OddPrinter implements Runnable {
                 synchronized (printer) {
                     if (printer.getNo() % 2 == 1) {
                         int no = printer.getNo();
-                        printer.print(no);
+                        printer.print();
                         printer.setNo(++no);
                         printer.notify();
                     } else {

@@ -9,9 +9,7 @@ class PlayGame {
         }
 
     companion object {
-        fun getChoise(): Any {
 
-        }
     }
 }
 

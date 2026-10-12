@@ -1,8 +1,5 @@
 package core.java.practice.leet.code2;
 
-import core.java.practice.leet.code.EvaluateReversePolishNotation;
-
-import java.sql.ClientInfoStatus;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
@@ -38,30 +35,31 @@ Output: []
 public class CombinationOfSum {
 
     private List<ArrayDeque<Integer>> result = new ArrayList<>();
-    public List<ArrayDeque<Integer>> combinationSum(int[] nums, int target){
+
+    public List<ArrayDeque<Integer>> combinationSum(int[] nums, int target) {
 
 
-        for(int i = 0 ; i < nums.length; i++ ){
+        for (int i = 0; i < nums.length; i++) {
             var listOfInt = new ArrayDeque<Integer>();
             listOfInt.push(nums[i]);
-            getCombination(i , nums, listOfInt, target-nums[i]);
+            getCombination(i, nums, listOfInt, target - nums[i]);
 
         }
 
-        return  result;
+        return result;
     }
 
-    private void getCombination(int idx, int[] nums, ArrayDeque<Integer>  listOfInt, int target){
+    private void getCombination(int idx, int[] nums, ArrayDeque<Integer> listOfInt, int target) {
 
-        if( target == 0  ){ // find combiation return list
-                result.add(listOfInt.clone());
-                return;
+        if (target == 0) { // find combiation return list
+            result.add(listOfInt.clone());
+            return;
         }
-        if(target < 0){
+        if (target < 0) {
             return;
         }
 
-        for(int i = idx ; i < nums.length; i++){
+        for (int i = idx; i < nums.length; i++) {
             listOfInt.push(nums[i]);
             //choose same element for next choise
             getCombination(i, nums, listOfInt, target - nums[i]);

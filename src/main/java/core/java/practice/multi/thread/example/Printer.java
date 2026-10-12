@@ -3,19 +3,19 @@ package core.java.practice.multi.thread.example;
 public class Printer {
     private int no;
 
-    Printer(int no){
+    public Printer(int no){
         this.no = no;
     }
 
-    public int getNo() {
+    public synchronized  int getNo() {
         return no;
     }
 
-    public void setNo(int no) {
+    public synchronized void setNo(int no) {
         this.no = no;
     }
 
-    public void print(int no) {
+    public void print() {
         System.out.println(Thread.currentThread().getName()+" :  "+no);
     }
 }
