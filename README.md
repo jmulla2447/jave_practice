@@ -70,7 +70,96 @@ A growing collection of Java solutions and practice exercises covering algorithm
 | Longest Palindromic Substring | [LongestPlindormString.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/LongestPlindormString.java) |
 | Longest Unique Substring | [LongestUniqueString.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/LongestUniqueString.java) |
 | Longest Non-Repeating Substring | [LongestNonRepetativeString.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/LongestNonRepetativeString.java) |
-| First Non-Re
+| First Non-Repeating Character | [FirstNonRepeativeChar.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/FirstNonRepeativeChar.java) |
+| Anagram | [Anagram.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/gropu/Anagram.java) |
+| Find Permutation in String | [FindPermutationPresentInString.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/FindPermutationPresentInString.java) |
+| Character Replacement | [CharacterReplacement.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/CharacterReplacement.java) |
+| Isomorphic Strings | [IsoMorphicString.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/IsoMorphicString.java) |
+| Letter Combinations of a Phone Number | [LetterCombinationPhoneNo.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/LetterCombinationPhoneNo.java) |
+
+### Hashing and Frequency Counting
+
+| Problem | Solution |
+|---|---|
+| Top K Frequent Elements | [TopKFrequentElements.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/TopKFrequentElements.java) |
+| Kth Frequency | [KthFrequency.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/KthFrequency.java) |
+| Happy Number | [HappyNumber.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/HappyNumber.java) |
+
+### Sorting and Selection
+
+| Problem | Solution |
+|---|---|
+| Quick Sort | [QuickSort.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/QuickSort.java) |
+| Merge Sort | [MergeSort.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/MergeSort.java) |
+| Counting Sort | [CountingSort.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/sort/CountingSort.java) |
+| Radix Sort | [RadixSourt.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/sort/RadixSourt.java) |
+| Kth Largest Element | [KthLargestElement.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/KthLargestElement.java) |
+| Heapify | [Heapyfy.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/Heapyfy.java) |
+
+### Stacks, Queues and Intervals
+
+| Problem | Solution |
+|---|---|
+| Custom Stack | [CustomStack.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/CustomStack.java) |
+| Min Stack | [MinStack.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/MinStack.java) |
+| Custom Queue | [CustomQueue.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/CustomQueue.java) |
+| Balanced Brackets | [BalancedBrecket.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/BalancedBrecket.java) |
+| Evaluate Reverse Polish Notation | [EvaluateReversePolishNotation.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/EvaluateReversePolishNotation.java) |
+| Largest Rectangle in Histogram | [LargestRectangleInHistogram.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/LargestRectangleInHistogram.java) |
+| Meeting Rooms | [MeetingRoom.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/MeetingRoom.java) |
+
+### Trees and Grid Problems
+
+| Problem | Solution |
+|---|---|
+| Binary Search Tree | [BinarySearchTree.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/BinarySearchTree.java) |
+| Validate Binary Search Tree | [ValidateBST.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/tree/ValidateBST.java) |
+| Validate Balanced Tree | [ValidateBlancedTree.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/tree/ValidateBlancedTree.java) |
+| Depth-First Tree Traversal | [DefthFirstTreeTraversal.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/tree/DefthFirstTreeTraversal.java) |
+| Island / Grid Problems | [Island.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/island/Island.java) |
+| Count Islands | [CountIsland.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/island/CountIsland.java) |
+
+### Recursion, Backtracking and Dynamic Programming
+
+| Problem | Solution |
+|---|---|
+| Coin Change | [CoinChange.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/CoinChange.java) |
+| Combination of Sum | [CombinationOfSum.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/CombinationOfSum.java) |
+| Permutations | [Permutation.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/Permutation.java) |
+| Permutation Practice | [Permutation1.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/Permutation1.java) |
+
+### Other Algorithm Exercises
+
+| Problem | Solution |
+|---|---|
+| Add Numbers | [AddNumbers.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/AddNumbers.java) |
+| FizzBuzz | [FizzBuzz.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/FizzBuzz.java) |
+| Median of Two Sorted Arrays | [MiedianOf2SortedArray.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code2/MiedianOf2SortedArray.java) |
+| Alternate Median Implementation | [TowSortedArrayMedian.java](https://github.com/jmulla2447/jave_practice/blob/master/src/main/java/core/java/practice/leet/code/TowSortedArrayMedian.java) |
+
+### Core Java Practice
+
+Topics include Java streams, collections, date/time APIs, priority queues, and language features.
+
+- [Java 8 practice](https://github.com/jmulla2447/jave_practice/tree/master/src/main/java/core/java/practice/java8)
+- [Java 21 practice](https://github.com/jmulla2447/jave_practice/tree/master/src/main/java/core/java/practice/java21)
+
+### Multithreading and Concurrency
+
+Exercises include producer-consumer patterns, thread coordination, odd/even number printing, banking operations, and thread-safe counters.
+
+- [Multithreading examples](https://github.com/jmulla2447/jave_practice/tree/master/src/main/java/core/java/practice/multi/thread)
+
+### Object-Oriented Design and Other Exercises
+
+- [Bowling game exercises](https://github.com/jmulla2447/jave_practice/tree/master/src/main/java/core/java/practice/bowling)
+- [Lift/elevator controller](https://github.com/jmulla2447/jave_practice/tree/master/src/main/java/core/java/practice/java21/lift)
+- [LeetCode-style practice solutions](https://github.com/jmulla2447/jave_practice/tree/master/src/main/java/core/java/practice/leet)
+
+---
+
+*This index is based on source filenames. Problem titles and categories should be checked against the implementation and tests. The repository is an ongoing collection of practice exercises.*
+
 ## 📂 Repository Structure
 
 Solutions are maintained as individual Java files, making it easier to explore and practise problems independently.
